@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" href="assets/img/icon/favicon.ico" type="image/ico">
     <link rel="stylesheet" href="https://use.typekit.net/itw4zdx.css">
     <title>Supramil</title>
 <link href="main.css" rel="stylesheet"></head>
@@ -22,7 +21,7 @@
                         <li class="header__nav-item"><a href="#" class="header__nav-link">Спектр действия</a></li>
                         <li class="header__nav-item"><a href="#" class="header__nav-link">Преимущества</a></li>
                         <li class="header__nav-item"><a href="#" class="header__nav-link">Где купить</a></li>
-                        <li class="header__nav-item"><a href="#" class="header__nav-link">Вопрос-ответ</a></li>
+                        <li class="header__nav-item"><a href="#" class="header__nav-link">Видео</a></li>
                     </ul>
                 </nav>
 
@@ -173,18 +172,17 @@
     </section>
     <!-- /ВТОРОЕ ОКНО -->
 
-
     <!-- ТРЕТЬЕ ОКНО -->
-    <section hidden class="select-tablet">
+    <section class="select-tablet">
         <div class="container">
 
             <div class="shield">
                 <div class="arsenal">
 
                     <div class="img">
-                        <img src="img/dog-pack-2-min.png" alt="" class="arsenal__img-1">
-                        <img src="img/dog-tablet-2-min.png" alt="" class="arsenal__img-2">
-                        <img src="img/tablet-min.png" alt="" class="arsenal__img-3">
+                        <img id="replace-pack-1" src="img/dog-pack-2-min.png" alt="" class="arsenal__img-1">
+                        <img id="replace-tablet-pack-1" src="img/dog-tablet-2-min.png" alt="" class="arsenal__img-2">
+                        <img id="replace-tablet-1" src="img/tablet-min.png" alt="" class="arsenal__img-3">
                     </div>
 
                     <a href="#" class="plus arsenal__plus arsenal__plus-one">+</a>
@@ -198,14 +196,14 @@
     <!-- /ТРЕТЬЕ ОКНО -->
 
     <!-- ЧЕТВЁРТОЕ ОКНО -->
-    <section hidden class="tablet-drop">
+    <section class="tablet-drop">
         <div class="container">
 
             <div class="">
-                <img src="img/tabletdropbg-min.png" alt="Супер пес и супер кот" class="tablet-drop__bg">
+                <img id="replace-animal-1" src="img/tabletdropbg-min.png" alt="Супер пес и супер кот" class="tablet-drop__bg">
             </div>
             <div class="tablet-drop__tablet">
-                <img src="img/tablet-min.png" alt="" class="">
+                <img id="replace-tablet-2" src="img/tablet-min.png" alt="" class="">
             </div>
 
         </div>
@@ -278,10 +276,10 @@
     <!-- /ШЕСТОЕ ОКНО -->
 
     <!-- СЕДЬМОЕ ОКНО -->
-    <section hidden class="special">
+    <section class="special">
         <div class="container">
 
-            <div class="special__pack">
+            <div id="replace-pack-2" class="special__pack">
                 <div class="row">
 
                     <div class="col-6">
@@ -328,7 +326,7 @@
     <!-- /СЕДЬМОЕ ОКНО -->
 
     <!-- ВОСЬМОЕ ОКНО -->
-    <section hidden class="result">
+    <section class="result">
         <div class="container">
             <div class="row">
 
@@ -345,7 +343,7 @@
                 </div>
 
                 <div class="col-12 col-md-6">
-                    <img src="img/resultbg-min.png" alt="" class="result__img">
+                    <img id="replace-animal-2" src="img/resultbg-min.png" alt="" class="result__img">
                 </div>
 
             </div>
@@ -354,7 +352,7 @@
     <!-- /ВОСЬМОЕ ОКНО -->
 
     <!-- ДЕВЯТОЕ ОКНО -->
-    <section hidden class="study">
+    <section class="study">
         <div class="container">
             <div class="row">
 
@@ -379,14 +377,14 @@
     <!-- /ДЕВЯТОЕ ОКНО -->
 
     <!-- ДЕСЯТОЕ ОКНО -->
-    <section hidden class="security">
+    <section class="security">
         <div class="container">
             <div class="row">
 
                 <a href="#" class="plus plus-close-pos">+</a>
 
                 <div class="col-12 col-md-6">
-                    <img src="img/securitybg-min.png" alt="" class="security__img">
+                    <img id="replace-animal-3" src="img/securitybg-min.png" alt="" class="security__img">
                 </div>
 
                 <div class="col-12 col-md-6 align-center">
@@ -404,7 +402,7 @@
     <!-- /ДЕСЯТОЕ ОКНО -->
 
     <!-- ОДИННАДЦАТОЕ ОКНО -->
-    <section hidden class="taste">
+    <section class="taste">
         <div class="container">
             <div class="row">
 
@@ -421,7 +419,7 @@
                 </div>
 
                 <div class="col-12 col-md-6">
-                    <img src="img/tastebg-min.png" alt="" class="taste__img">
+                    <img id="replace-animal-4" src="img/tastebg-min.png" alt="" class="taste__img">
                 </div>
 
             </div>
@@ -430,7 +428,7 @@
     <!-- /ОДИННАДЦАТОЕ ОКНО -->
 
     <!-- ДВЕННАДЦАТОЕ ОКНО -->
-    <section hidden class="availability">
+    <section class="availability">
         <div class="container">
             <div class="row">
                 <a href="#" class="plus plus-close-pos">+</a>
@@ -456,7 +454,7 @@
     <!-- /ДВЕННАДЦАТОЕ ОКНО -->
 
     <!-- КОШКА ВТОРОЕ ОКНО -->
-    <section hidden id="select-weight-cat" class="select-weight">
+    <section id="select-weight-cat" class="select-weight">
         <div class="container">
 
             <h3 class="title">
@@ -466,32 +464,23 @@
             <div class="card d-none d-sm-block">
                 <div class="row">
 
-                    <div class="col-2">
-
-                    </div>
-
-                    <div class="col-4">
+                    <div class="col-6">
                         <a href="#" class="card__item">
                             <img src="img/cat-pack-1-min.png" alt="Упаковка Supramil" class="card__item-img">
-                            <div class="card__item-title">для котят и кошек массой до 2 кг</div>
+                            <div class="subtitle card__item-title">для котят и кошек массой до 2 кг</div>
                         </a>
                     </div>
 
-                    <div class="col-4">
+                    <div class="col-6">
                         <a href="#" class="card__item">
                             <img src="img/cat-pack-2-min.png" alt="Упаковка Supramil" class="card__item-img">
-                            <div class="card__item-title">для кошек
-                                массой от 2 кг
-                            </div>
+                            <div class="subtitle card__item-title">для кошек массой от 2 кг</div>
                         </a>
                     </div>
 
-                    <div class="col-2">
 
-                    </div>
 
                 </div>
-
             </div>
 
             <div class="parent d-block d-sm-none">
@@ -503,13 +492,13 @@
 
                 <div class="child">
                     <img src="img/cat-pack-2-min.png" alt="Упаковка Supramil" class="card__item-img">
-                    <div class="card__item-title">для кошек
-                        массой от 2 кг
-                    </div>
-
+                    <div class="card__item-title">для кошек массой от 2 кг</div>
                 </div>
 
+
+
             </div>
+
 
         </div>
     </section>
