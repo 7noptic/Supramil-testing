@@ -13,7 +13,7 @@
     <!-- ПЕРВОЕ ОКНО -->
     <section class="header">
         <header class="container">
-            <div class="row d-none d-sm-block">
+            <!--  <div class="row d-none d-sm-block">
 
                 <nav class="header__nav">
                     <ul class="header__nav-list">
@@ -26,7 +26,7 @@
                 </nav>
 
             </div>
-
+ -->
             <div class="row row d-none d-sm-block">
                 <div class="header__logo">
                     <a href="#">
@@ -36,7 +36,6 @@
             </div>
 
 
-            <!-- МЕНЮ БУРГЕР НА МОБИЛКАХ -->
             <div class="row d-block d-sm-none">
                 <div class="col-7">
                     <div class="header__logo">
@@ -45,10 +44,10 @@
                         </a>
                     </div>
                 </div>
-
+                <!--
                 <div class="col-5">
                     <div class="hamburger-menu">
-                        <input id="menu__toggle" type="checkbox">
+                        <input id="menu__toggle" type="checkbox"/>
                         <label class="menu__btn" for="menu__toggle">
                             <span><i>МЕНЮ</i></span>
                         </label>
@@ -61,16 +60,13 @@
                         </ul>
                     </div>
                 </div>
-
+ -->
 
             </div>
 
             <div class="row d-block d-sm-none">
                 <div class="menu__line"></div>
             </div>
-
-
-            <!-- /МЕНЮ БУРГЕР НА МОБИЛКАХ -->
 
 
             <div class="row">
@@ -148,20 +144,26 @@
             <div class="parent d-block d-sm-none">
 
                 <div class="child">
-                    <img src="img/dog-pack-1-min.png" alt="Упаковка Supramil" class="card__item-img">
-                    <div class="card__item-title">для щенков и собак массой до 5 кг</div>
+                    <a href="#" class="card__item">
+                        <img src="img/dog-pack-1-min.png" alt="Упаковка Supramil" class="card__item-img">
+                        <h3 class="subtitle card__item-title">для щенков и собак массой до 5 кг</h3>
+                    </a>
                 </div>
 
                 <div class="child">
-                    <img src="img/dog-pack-2-min.png" alt="Упаковка Supramil" class="card__item-img">
-                    <div class="card__item-title">для щенков и собак массой до 5 кг</div>
+                    <a href="#" class="card__item">
+                        <img src="img/dog-pack-2-min.png" alt="Упаковка Supramil" class="card__item-img">
+                        <h3 class="subtitle card__item-title">для щенков и собак массой до 5 кг</h3>
+                    </a>
                 </div>
 
                 <div class="child">
-                    <img src="img/dog-pack-3-min.png" alt="Упаковка Supramil" class="card__item-img">
-                    <div class="card__item-title">для собак массой
-                        от 20 до 50 кг
-                    </div>
+                    <a href="#" class="card__item">
+                        <img src="img/dog-pack-3-min.png" alt="Упаковка Supramil" class="card__item-img">
+                        <h3 class="subtitle card__item-title">для собак массой
+                            от 20 до 50 кг
+                        </h3>
+                    </a>
 
                 </div>
 
@@ -332,7 +334,7 @@
 
                 <a href="#" class="plus plus-close-pos">+</a>
 
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 align-center">
                     <h3 class="title">
                         Безупречный результат после первого применения
                     </h3>
@@ -359,16 +361,19 @@
                 <a href="#" class="plus plus-close-pos">+</a>
 
                 <div class="col-12 col-md-6 align-center">
-                    <h3 class="title">
+                    <h3 class="title study__title">
                         Клинические исследования Supramil
                     </h3>
-                    <div class="subtitle btn">
+                    <a href="#" class="subtitle study__btn">
                         Скачать PDF
-                    </div>
+                    </a>
                 </div>
 
                 <div class="col-12 col-md-6">
-                    <img src="img/studybg-min.png" alt="" class="study__img">
+                    <div class="study__bg">
+                        <img id="replace-tablet-3" src="../img/tablet-min.png" alt="" class="study__tablet">
+                    </div>
+                    <!--  <img src="img/studybg-min.png" alt="" class="study__img"> -->
                 </div>
 
             </div>
@@ -419,7 +424,11 @@
                 </div>
 
                 <div class="col-12 col-md-6">
-                    <img id="replace-animal-4" src="img/tastebg-min.png" alt="" class="taste__img">
+                    <div id="replace-animal-4" class="taste__bg">
+                        <img id="replace-tablet-4" src="../img/tablet-min.png" alt="" class="taste__tablet">
+
+                        <!--   <img id="replace-animal-4" src="img/tastebg-min.png" alt="" class="taste__img">-->
+                    </div>
                 </div>
 
             </div>
@@ -479,22 +488,24 @@
                     </div>
 
 
-
                 </div>
             </div>
 
             <div class="parent d-block d-sm-none">
 
                 <div class="child">
-                    <img src="img/cat-pack-1-min.png" alt="Упаковка Supramil" class="card__item-img">
-                    <div class="card__item-title">для котят и кошек массой до 2 кг</div>
+                    <a href="#" class="card__item">
+                        <img src="img/cat-pack-1-min.png" alt="Упаковка Supramil" class="card__item-img">
+                        <h2 class="subtitle card__item-title">для котят и кошек массой до 2 кг</h2>
+                    </a>
                 </div>
 
                 <div class="child">
-                    <img src="img/cat-pack-2-min.png" alt="Упаковка Supramil" class="card__item-img">
-                    <div class="card__item-title">для кошек массой от 2 кг</div>
+                    <a href="#" class="card__item">
+                        <img src="img/cat-pack-2-min.png" alt="Упаковка Supramil" class="card__item-img">
+                        <h2 class="subtitle card__item-title">для кошек массой от 2 кг</h2>
+                    </a>
                 </div>
-
 
 
             </div>
@@ -505,6 +516,32 @@
 </main>
 
 <section class="buy">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="title buy__title">
+                    Купить в интернете
+                </h3>
+            </div>
+            <div class="col-3 d-none d-md-block"></div>
+
+            <div class="col-12 col-md-6">
+
+
+                <div class="buy__bg">
+                    <a href="#" class="buy__item">
+                        <img id="replace-pack-3" src="img/dog-pack-1-min.png" alt="Упаковка Supramil" class="buy__item-img">
+                        <div id="replace_text" class="subtitle buy__subtitle">title</div>
+                        <a href="#" class="buy__link">Купить</a>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="col-3 d-none d-md-block"></div>
+        </div>
+    </div>
+    <!--
     <div class="container">
         <div class="row">
 
@@ -620,11 +657,51 @@
 
         </div>
 
-    </div>
+    </div>--> <!-- Старая версия секции где купить -->
 </section>
-
+<!--
 <section class="video">
     <div class="video-parallax">
+        <div class="container">
+            <div class="row justify-content-center">
+
+                <div class="col-3 d-none d-md-block"></div>
+
+                <div class="col-12 col-md-6">
+                    <h3 class="title buy__title">
+                        Смотрите, как просто
+                    </h3>
+                    <iframe class="video__video" src="https://www.youtube.com/embed/ReUs35z_Ahw"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+
+                    <div class="subtitle video__subtitle">
+                        Попробуйте супертаблетку для суперпитомца и расскажите друзьям!
+                    </div>
+
+                    <div class="subtitle video__subtitle">
+                        Делитесь опытом в социальных сетях, используйте хештеги:
+                    </div>
+
+                    <div class="subtitle">
+                        <ul>
+                            <li>#супертаблеткаSupramil,</li>
+                            <li>#даюсупертаблетку,</li>
+                            <li>#супертаблеткаотглистов</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-3 d-none d-md-block"></div>
+
+            </div>
+        </div>
+    </div>
+</section>
+ -->
+
+<section class="video">
+    <div id="paralax">
         <div class="container">
             <div class="row justify-content-center">
 
@@ -644,7 +721,7 @@
                         Делитесь опытом в социальных сетях, используйте хештеги:
                     </div>
 
-                    <div class="subtitle video__subtitle">
+                    <div class="subtitle">
                         <ul>
                             <li>#супертаблеткаSupramil,</li>
                             <li>#даюсупертаблетку,</li>
@@ -658,15 +735,15 @@
             </div>
         </div>
     </div>
-</section>
 
+</section>
 <footer class="footer">
     <div class="container">
 
         <div class="footer__text text__copy">
             © 2020 ООО «НВП «Астрафарм»
         </div>
-        <a href="#" class="footer__text text__politics">
+        <a href="./politics.html" class="footer__text text__politics">
             Политика конфиденциальности
 
         </a>
